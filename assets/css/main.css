@@ -28,7 +28,19 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+#footersec{
+	width: 100%;
 
+}
+section{
+  margin:auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 body {
 	line-height: 1;
 }
@@ -99,11 +111,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #FF0F2B;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #F79B2A 15%, #FF0F2B 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #F79B2A 15%, #FF0F2B 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #F79B2A 15%, #FF0F2B 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #F79B2A 15%, #FF0F2B 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +132,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #FF0F2B;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2167,7 +2179,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #FF0F2B;
 		}
 
 	input[type="checkbox"] + label,
@@ -2185,7 +2197,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #FF0F2B;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2291,7 +2303,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #F79B2A;
 		}
 
 		.icon.style2 {
@@ -2299,7 +2311,7 @@ input, select, textarea {
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #ff0f2b;
 		}
 
 		.icon.style4 {
@@ -3783,3 +3795,5 @@ input, select, textarea {
 			}
 
 		}
+
+		
